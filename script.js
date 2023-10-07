@@ -23,6 +23,9 @@ document.getElementById("login-form").addEventListener("submit", function(e) {
   } 
   if (username === "keyboarder-6sp0d" && password === "i21hp") {
     window.location.href = "https://deecoyz.github.io/keyboarding-info/";
+  } 
+  if (username === "retrobowl" && password === "20dka") {
+    window.location.href = "https://deecoyz.github.io/keyboarding-class-game1/";
   } else {
     document.getElementById("message").textContent = "Invalid credentials. Sign up for Keyboarding Practice now for only $9.99 a year!";
   }
