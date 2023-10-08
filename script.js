@@ -6,37 +6,37 @@ document.getElementById("login-form").addEventListener("submit", function(e) {
   var password = document.getElementById("password").value;
 
   // You can add your authentication logic here
-  if (username === "keyboarder-57wuh" && password === "74ce7") {
+  if (username === "incremental-mass-rewritten" && password === "2012") {
     window.location.href = "https://deecoyz.github.io/keyboarding-games/";
   }
-  if (username === "keyboarder-7lx7n" && password === "5b0ty") {
+  if (username === "really-gci" && password === "2012") {
     window.location.href = "https://deecoyz.github.io/keyboarding-practice/";
   } 
-  if (username === "keyboarder-q5x8s" && password === "4zw68") {
+  if (username === "calculator-evolution" && password === "2012") {
     window.location.href = "https://deecoyz.github.io/keyboarding-settings/";
   } 
-  if (username === "keyboarder-y04eg" && password === "o4o1u") {
+  if (username === "luck-incremental" && password === "2012") {
     window.location.href = "https://deecoyz.github.io/keyboarding-stats/";
   }
-  if (username === "keyboarder-vb1ot" && password === "7xchz") {
+  if (username === "stonemental" && password === "2012") {
     window.location.href = "https://deecoyz.github.io/keyboarding-summary/";
   } 
-  if (username === "keyboarder-6sp0d" && password === "i21hp") {
+  if (username === "universal-time" && password === "2012") {
     window.location.href = "https://deecoyz.github.io/keyboarding-info/";
   } 
-  if (username === "keyboarder-ka29m" && password === "20dka") {
+  if (username === "retro-bowl" && password === "2012") {
     window.location.href = "https://deecoyz.github.io/keyboarding-class-game1";
   }
-  if (username === "keyboarder-ijdoa" && password === "d34hr") {
+  if (username === "ifm" && password === "2012") {
     window.location.href = "https://deecoyz.github.io/keyboarding-class-homerow";
   }
-  if (username === "keyboarder-c230i" && password === "j0ci1") {
+  if (username === "omega-layers" && password === "2012") {
     window.location.href = "https://deecoyz.github.io/keyboarding-practice-pace";
   }
-  if (username === "keyboarder-eruik" && password === "f2039") {
+  if (username === "universe-shrinker" && password === "2012") {
     window.location.href = "https://deecoyz.github.io/keyboarding-class-test";
   }
-  if (username === "keyboarder-2d93j" && password === "a0c8h") {
+  if (username === "yamg" && password === "2012") {
     window.location.href = "https://deecoyz.github.io/keyboarding-class-test2";
   }
   else {
