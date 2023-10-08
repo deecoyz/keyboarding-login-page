@@ -2,15 +2,25 @@ body {
   font-family: 'Arial', sans-serif;
 }
 
+.title-top {
+  text-align: center;
+  margin-top: 200px;
+}
+
 .container {
   width: 300px;
   margin: 0 auto;
-  margin-top: 250px;
+  margin-top: 25px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #f9f9f9;
   text-align: center;
+}
+
+.title-bottom {
+  text-align: center;
+  margin-top: 25px;
 }
 
 h2 {
