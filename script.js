@@ -40,7 +40,7 @@ document.getElementById("login-form").addEventListener("submit", function(e) {
     window.location.href = "https://deecoyz.github.io/keyboarding-class-test2/";
   }
   if (username === "metallic" && password === "2012") {
-    window.location.href = "https://metalli.zc.al/";
+    window.location.href = "https://deecoyz.github.io/intermediate-test/";
   }
   else {
     document.getElementById("message").textContent = "Invalid credentials. Sign up for Keyboarding Practice now for only $9.99 a year!";
