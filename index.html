@@ -1,2 +1,114 @@
-<link rel="stylesheet" href="style.css">
-We are sorry, but our server load has exceeded the limit. Try again in a few minutes. (Error code 400)
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Information v1.0</title>
+</head>
+<body>
+    <div class="title-top">
+      <h1>Random</h1>
+    </div>
+  
+    <div class="container">
+        <h2>Login Page</h2>
+        <h4>If you have not created an account, create one! It's only $9.99 a year!</h4>
+        <form id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br>
+
+            <button type="submit">Login</button>
+        </form>
+        <p id="message"></p>
+    </div>
+    <div class="title-bottom">
+      <h1>Info v1.0</h1>
+    <div id="embed-1">
+      <iframe width="100%" height="100%" src="https://metalli.zc.al/" frameborder=0></iframe>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<script>
+  document.getElementById("embed-1").style.visibility = "hidden";
+  document.getElementById("login-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    // Get input values
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+    
+    // You can add your authentication logic here
+    if (username === "whales" && password === "ilovewhales") {   
+      document.getElementById("message").textContent = "Scroll down :)";
+      document.getElementById("embed-1").style.visibility = "visible";
+    }
+    else {
+      document.getElementById("message").textContent = "Sign up for Random Information now!";
+    }
+  });
+</script>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+
+  .title-top {
+    text-align: center;
+    margin-top: 200px;
+  }
+  
+  .container {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .title-bottom {
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  form {
+    text-align: center;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+</style>
